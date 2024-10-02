@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Style/main.uss?fileID=7433441132597879392&amp;guid=54f3bfb36fe3b2b4c8cc7d4fcc375762&amp;type=3#main" />
+    <ui:VisualElement class="main-panel" style="flex-grow: 1; align-items: center; justify-content: center;">
+        <ui:Label tabindex="-1" text="Кімната створенна" parse-escape-sequences="true" display-tooltip-when-elided="true" name="roomName" class="label" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+        <ui:Button text="Почати гру" parse-escape-sequences="true" display-tooltip-when-elided="true" name="StartGameBtn" class="button" style="background-color: rgb(87, 87, 87); color: rgb(255, 255, 255);" />
+    </ui:VisualElement>
+</ui:UXML>

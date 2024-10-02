@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Style/main.uss?fileID=7433441132597879392&amp;guid=54f3bfb36fe3b2b4c8cc7d4fcc375762&amp;type=3#main" />
+    <ui:VisualElement name="VisualElement" class="main-panel" style="flex-grow: 1;">
+        <ui:Label tabindex="-1" text="Основне меню" parse-escape-sequences="true" display-tooltip-when-elided="true" class="label" style="background-color: rgba(255, 255, 255, 0); color: rgb(255, 255, 255);" />
+        <ui:Button text="Створити кімнату&#10;" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CreateRoomBtn" class="button" />
+        <ui:Button text="Приеднатися до кімнати&#10;" parse-escape-sequences="true" display-tooltip-when-elided="true" name="JoinRoomBtn" class="button" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Style/main.uss?fileID=7433441132597879392&amp;guid=54f3bfb36fe3b2b4c8cc7d4fcc375762&amp;type=3#main" />
+    <ui:VisualElement class="main-panel" style="flex-grow: 1;">
+        <ui:Label tabindex="-1" text="Список кімнат" parse-escape-sequences="true" display-tooltip-when-elided="true" class="label" />
+        <ui:VisualElement name="ListOfRooms" style="flex-grow: 1; width: 300px; height: 300px; margin-top: 30px; background-color: rgb(41, 41, 41); padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px;" />
+    </ui:VisualElement>
+</ui:UXML>
